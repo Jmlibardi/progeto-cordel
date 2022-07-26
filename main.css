@@ -35,8 +35,28 @@ header > p{
 header a{
     text-decoration: none;
     color: white;
+    font-weight: bold;
 }
 
 header a:hover{
     text-decoration: underline;
+}
+
+section{
+    font-family: var(--fonte3);
+    font-size: 3.5vw;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+}
+
+.imagem{
+    background-image: url('imagens/background001.jpg');
+    background-size: 100%;
+}
+
+.imagem > p{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.514);
+    
 }
